@@ -133,7 +133,31 @@ li.logo img{
 .search-title{
   display: flex;
   justify-content: space-between;
+  color: rgba(0,0,0,.3);
+  padding-top: 3em;
 }
+
+.search input{
+  border-radius: 5px;
+  width: 75%;
+  margin: 20px;
+  margin-top: 0;
+}
+
+
+article{
+  background-color: #fff;
+}
+
+article ul li{
+  color: rgba(0,0,0,.3);
+}
+
+article ul li a{
+  text-decoration: none;
+  color: #41b7d8;
+}
+
 
 @media(max-width: 1223px){
   main{
