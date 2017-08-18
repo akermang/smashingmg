@@ -10,9 +10,10 @@ body{
 }
 
 main{
+  margin-left: 10px;
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 60% 40%;
+  grid-gap: 0;
+  grid-template-columns: 70% 30%;
   grid-template-rows: 1fr 1fr 100%;
   grid-template-areas: "header search"
                        "content search"
@@ -86,11 +87,11 @@ li.logo img{
   grid-area: content;
   border-top-right-radius: 18px;
   margin-top: -10px;
-  box-shadow: 0px 2px 7px grey;
+//  box-shadow: 0px 2px 7px grey;
 }
 
 .content div.article-navigation-container{
-  border-bottom: .3125em solid rgba(0,0,0,.06);
+  border-bottom: .3125em solid rgba(0,0,0,.006);
 }
 
 .content ul.article-navigation{
@@ -108,6 +109,8 @@ li.logo img{
   padding: 1em;
   border-bottom: 5px solid #63BFB2;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
   border-right: 1px solid #ccc;
   display: inline-table;
   transition: 0.8s;
@@ -149,6 +152,8 @@ li.logo img{
 article{
   background-color: #fff;
   grid-area: article;
+  padding: 10px;
+  height: 100%;
 }
 
 article ul li{
@@ -159,6 +164,20 @@ article ul li a{
   text-decoration: none;
   color: #41b7d8;
 }
+
+article p{
+  margin-bottom: 0;
+}
+
+
+figure{
+  margin: 0px;
+  margin-left: -10px;
+  width: 95.5%;
+  background-color: #fff;
+  padding: 30px;
+}
+
 
 
 @media(max-width: 1223px){
@@ -190,11 +209,12 @@ header{
   display: block;
   line-height: 5em;
   margin-bottom: 0;
+  padding-left: 0;
 }
 
 .article-navigation li{
   border-bottom: 0;
-  border-left: 5px solid #63BFB2;
+  border-left: 10px solid #63BFB2;
   border-right: 0;
 }
 
