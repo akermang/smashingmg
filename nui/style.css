@@ -85,7 +85,7 @@ li.logo img{
   grid-area: content;
   border-top-right-radius: 18px;
   margin-top: -10px;
-  box-shadow: 0px 2px 12px grey;
+  box-shadow: 0px 2px 7px grey;
 }
 
 .content div.article-navigation-container{
