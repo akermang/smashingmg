@@ -48,7 +48,7 @@ nav.main-navigation ul li{
   text-transform: capitalize;
   padding-top: 50px;
   color: rgba(0,0,0,.3);
-  transition: 0.8s;
+  transition: 0.4s;
 }
 
 nav.main-navigation ul li:hover{
