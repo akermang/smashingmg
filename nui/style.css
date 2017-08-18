@@ -13,9 +13,10 @@ main{
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 60% 40%;
-  grid-template-rows: 1fr 100%;
+  grid-template-rows: 1fr 1fr 100%;
   grid-template-areas: "header search"
-                       "content search";
+                       "content search"
+                       "article search";
   height: 100%;
 }
 
@@ -147,6 +148,7 @@ li.logo img{
 
 article{
   background-color: #fff;
+  grid-area: article;
 }
 
 article ul li{
@@ -161,22 +163,45 @@ article ul li a{
 
 @media(max-width: 1223px){
   main{
-    grid-template-columns: 1 ;
-    grid-template-rows: 4;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    height: 100%;
+    grid-gap: 0;
 
  }
 
 header{
   grid-row: 1;
-  grid-column: 1 1;
+  grid-column:  1 / span 2;
 }
 
 .search{
-  grid-row: 3;
-  grid-column: 1 1;
+  grid-row: 2;
+  grid-column: 1 / span 2;
+  background-color: #fff;
 }
+
 .content{
-  grid-row: 4;
-  grid-column: 1 1;
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.content ul.article-navigation{
+  display: block;
+  line-height: 5em;
+  margin-bottom: 0;
+}
+
+.article-navigation li{
+  border-bottom: 0;
+  border-left: 5px solid #63BFB2;
+  border-right: 0;
+}
+
+
+
+article{
+  grid-row: 3;
+  grid-column:  2;
 }
 }
