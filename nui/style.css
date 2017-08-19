@@ -200,7 +200,14 @@ article ul li{
 .author{
   border-bottom: .08em solid rgba(0,0,0,.1);
   line-height: 76px;
+  color: rgba(0,0,0,.3);
 }
+
+.author a{
+  color: #41b7d8;
+  text-decoration: none;
+}
+
 
 article ul li a{
   text-decoration: none;
