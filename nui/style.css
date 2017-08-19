@@ -133,7 +133,7 @@ ul.article-navigation{
   grid-column: 2;
   grid-row: 1;
   text-align: right;
-  padding-top: 60px;
+  padding: 49px 20px 0 0;
 }
 
 .search-title{
@@ -191,6 +191,15 @@ h2, h3 {
 
 article ul li{
   color: rgba(0,0,0,.3);
+  display: inline-block;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+
+.author{
+  border-bottom: .08em solid rgba(0,0,0,.1);
+  line-height: 76px;
 }
 
 article ul li a{
@@ -220,24 +229,27 @@ figure{
   header{
     grid-row: 1;
     grid-column:  1 / span 2;
+    height: 130px;
+    width: 70%;
   }
 
   .icons{
     grid-row: 1;
     grid-column: 2;
+    padding-top: 48px!important;
   }
 
   .search{
     grid-row: 2 ;
     grid-column: 1 / span 2;
     background-color: #fff;
-    padding-left: 8%;
+    padding-left: 3%;
   }
 
   .article-navigation-container{
     grid-row: 3 ;
     grid-column: 1;
-    padding-top: 60%;
+    padding-top: 73px;
     margin-top: 0;
     background-color: #fff;
     border-radius: 0;
@@ -246,7 +258,6 @@ figure{
 
   ul.article-navigation{
     display: block;
-    line-height: 5em;
     padding-left: 0;
     background-color: #fff;
     width: 100%;
@@ -259,6 +270,9 @@ figure{
     border-left: 10px solid #63BFB2;
     border-right: 0;
     letter-spacing: 0.2em;
+    height: 35px;
+    width: 90%;
+    text-align: left;
   }
 
   article{
@@ -280,18 +294,32 @@ figure{
     display: none;
   }
 
+  .author{
+    width: calc(100% - 90px);
+  }
+
   .article-navigation-container{
     display: none;
   }
 
   .icons{
-    grid-column: 1;
-    grid-row: 1;
-    padding-top: 60px;
+    display: none;
+  }
+  nav.main-navigation ul{
+    width: 150px;
+    height: auto;
   }
 
-  nav.main-navigation ul{
-  display: grid;
+  nav.main-navigation ul li{
+    display: none;
+  }
+
+  nav.main-navigation ul li:first-child{
+    display: block;
+  }
+
+  nav.main-navigation ul li.logo img{
+    padding-top: 15px!important;
   }
 
   li.logo{
@@ -314,8 +342,13 @@ figure{
     width: 60%;
   }
 
+  article ul{
+    width: 88%;
+    margin: auto;
+  }
+
   article ul li{
-    margin: 6%;
+    display: inline-block;
   }
 
   article p{
