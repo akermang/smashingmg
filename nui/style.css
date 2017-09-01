@@ -127,6 +127,7 @@ ul.article-navigation{
 .search{
   grid-column: 2;
   grid-row: 1 / span 2;
+  width: 99%;
 }
 
 .icons{
@@ -171,6 +172,65 @@ ul.article-navigation{
   width: 79%;
   font-size: 1.125em;
 }
+
+.Subscribe{
+  grid-column: 2;
+  grid-row: 2 / span 2;
+  border: .08em solid rgba(0,0,0,.1);
+  border-left: 0;
+  background: rgba(255,255,255,.55);
+  border-radius: 0 .625em .625em 0;
+  margin: 4.8em 0 1.5em -1.0em;
+  padding: 0 1.25em 2em;
+  height: 280px;
+  width: 92%;
+}
+
+.Subscribe a{
+    font-size: 130%;
+    text-decoration: none;
+    vertical-align: baseline;
+    padding: 0;
+    background: 0 0;
+    color: #41b7d8;
+}
+
+.Subscribe a img{
+  padding-right: 1.5em;
+}
+
+.email-input button{
+  background-color: #e95c33;
+  border: .08em solid #c73a11;
+  margin-right: 3%;
+  border-left: 0;
+  border-radius: 0 .5em .5em 0;
+  line-height: 2.25;
+  width: 25%;
+  height:  2.375em;;
+  float: right;
+  color: #fff;
+  font-size: 1.125em;
+}
+
+.Subscribe input{
+  height: 2.352em;
+  padding: .375em 0 .375em 2%;
+  line-height: 1.5;
+  padding: .5em;
+  color: #777;
+  border: .08em solid rgba(0,0,0,.1);
+  background-color: #fff;
+  border-radius: .8em 0 0 .8em;
+  width: 72%;
+  font-size: 1.125em;
+}
+
+.email-input a img{
+  padding-top: 1em;
+  height: 1.5em;
+ }
+
 
 article{
   background-color: #fff;
@@ -231,6 +291,10 @@ figure{
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     height: 100%;
     grid-gap: 0;
+   }
+
+   .Subscribe{
+     display: none;
    }
 
   header{
@@ -299,6 +363,10 @@ figure{
   }
 
   .search{
+    display: none;
+  }
+
+  .Subscribe{
     display: none;
   }
 
