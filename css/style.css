@@ -294,13 +294,35 @@ figure{
   padding: 30px;
 }
 
+footer{
+  grid-column: 1 ;
+  grid-row: 4;
+  font-size: .7em;
+  text-align: left;
+  margin: 30 46 2em;
+  color: rgba(0,0,0,.35);
+  height: 14.5em;
+}
+
+ .flinks a{
+  color: #41b7d8;
+  text-decoration: none;
+  padding: 0.4em;  
+}
+
 @media(max-width: 1223px){
   main{
     grid-template-columns: 15% 85%;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 100%;
     grid-gap: 0;
-   }
+  }
+
+   footer{
+     grid-column: 1 / span 2;
+     grid-row: 5;
+     margin: 162px 46 2em;
+    }
 
    .Subscribe{
      display: none;
@@ -309,7 +331,7 @@ figure{
   header{
     grid-row: 1;
     grid-column:  1 / span 2;
-    height: 130px;
+    height: 148px;
     width: 70%;
   }
 
@@ -319,18 +341,22 @@ figure{
     padding-top: 48px!important;
   }
 
+  footer p{
+    margin-top: 50px;
+  }
+
   .search{
     grid-row: 2 ;
     grid-column: 1 / span 2;
     background-color: #fff;
-    padding-left: 3%;
+    padding-left: 1%;
   }
 
   .article-navigation-container{
     grid-row: 3 ;
     grid-column: 1;
     padding-top: 73px;
-    padding-bottom: 63px;
+    padding-bottom: 67px;
     margin-top: 0;
     background-color: #fff;
     border-radius: 0;
@@ -420,6 +446,7 @@ figure{
     grid-column:  1;
     width: 100%;
     padding: 0;
+    border-top-right-radius: 0;
   }
 
   article h2,h3{
@@ -443,5 +470,8 @@ figure{
 
   figure img{
     max-width: 100%;
+  }
+  footer{
+    margin: 0 46 2em;
   }
 }
