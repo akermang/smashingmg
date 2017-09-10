@@ -56,7 +56,7 @@ nav.main-navigation ul li{
   transition: 0.4s;
 }
 
-nav.main-navigation ul li:hover{
+nav.main-navigation ul a:hover{
   background: #ff6;
   cursor: pointer;
   color: rgba(0,0,0,.6);
@@ -107,9 +107,12 @@ ul.article-navigation{
   padding-left: 5%;
 }
 
+.article-navigation li{
+  transition: 0.7s;
+}
 .article-navigation  a{
   padding: 1em;
- // border-bottom: 5px solid #63BFB2;
+ 
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
@@ -127,6 +130,10 @@ ul.article-navigation{
 
 .article-navigation li.li-wp{
   border-bottom: 5px solid  #BCD8F0;
+}
+
+.article-navigation li.li-wp:hover{
+  border-bottom: 5px solid  #2284D9;
 }
 
 .article-navigation li.li-ux{
@@ -150,7 +157,7 @@ ul.article-navigation{
 }
 
 
-.article-navigation li:hover{
+.article-navigation a:hover{
   background: #ff6;
   cursor: pointer;
   color: rgba(0,0,0,.6);
