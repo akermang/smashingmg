@@ -102,26 +102,53 @@ ul.article-navigation{
   margin-bottom: -5px;
   line-height: 5px;
   padding-top: 40px;
-  width: 80%;
+  width: 88%;
   font-size: 69%;
   padding-left: 5%;
 }
 
-.article-navigation li{
+.article-navigation  a{
   padding: 1em;
-  border-bottom: 5px solid #63BFB2;
+ // border-bottom: 5px solid #63BFB2;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   border-right: 1px solid #ccc;
   display: inline-table;
   transition: 0.8s;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
+  text-decoration-line: none;
+  color: black;
 }
 
 .article-navigation li:last-child{
   border-right: none;
 }
+
+.article-navigation li.li-wp{
+  border-bottom: 5px solid  #BCD8F0;
+}
+
+.article-navigation li.li-ux{
+  border-bottom: 5px solid #faced2;
+}
+
+.article-navigation li.li-graphics{
+  border-bottom: 5px solid #A675A2;
+}
+
+.article-navigation li.li-mobile{
+  border-bottom: 5px solid #EBD203;
+}
+
+.article-navigation li.li-design{
+  border-bottom: 5px solid #6ECE0A;
+}
+
+.article-navigation li.li-coding{
+  border-bottom: 5px solid #63BFB2;
+}
+
 
 .article-navigation li:hover{
   background: #ff6;
@@ -371,7 +398,7 @@ footer{
     font-size: 85%;
   }
 
-  .article-navigation li{
+  .article-navigation li a{
     border-bottom: 0;
     border-left: 10px solid #63BFB2;
     border-right: 0;
