@@ -56,7 +56,7 @@ nav.main-navigation ul li{
   transition: 0.4s;
 }
 
-nav.main-navigation ul a:hover{
+nav.main-navigation ul li:hover{
   background: #ff6;
   cursor: pointer;
   color: rgba(0,0,0,.6);
@@ -70,6 +70,7 @@ nav.main-navigation ul li:first-child{
   border: none;
   flex: 2!important;
   padding-top: 0;
+  transition: inherit;
 }
 
 li.logo{
