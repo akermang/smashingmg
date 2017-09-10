@@ -245,7 +245,7 @@ article{
   background-color: #fff;
   grid-column: 1;
   grid-row: 2;
-  padding: 110px 0 50px 50.5px; 
+  padding: 110px 0 50px 50px; 
   height: 100%;
   border-top-right-radius: 16px;
   margin-top: -20px;
@@ -294,7 +294,7 @@ figure{
 }
 
 footer{
-  grid-column: 1 ;
+  grid-column: 1;
   grid-row: 4;
   font-size: .7em;
   text-align: left;
