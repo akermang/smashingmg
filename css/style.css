@@ -56,6 +56,23 @@ nav.main-navigation ul li{
   transition: 0.4s;
 }
 
+nav.main-navigation ul li.li-ebooks{
+  background-image: url(../img/cody.svg);
+  background-repeat: no-repeat;
+  background-position: right .25em;
+  background-size: 2.25em auto;
+}
+
+nav.main-navigation ul li.li-ebooks:hover{
+  background: #ff6;
+  cursor: pointer;
+  color: rgba(0,0,0,.6);
+  background-image: url(../img/cody.svg);
+  background-repeat: no-repeat;
+  background-position: right .25em;
+  background-size: 2.25em auto;
+}
+
 nav.main-navigation ul li:hover{
   background: #ff6;
   cursor: pointer;
@@ -83,6 +100,20 @@ li.logo img{
   height: 48%;
   padding-top: 18%;
 }
+
+/*#social-media-nav .ch li a {
+  grid-column: 2;
+  grid-row: 1;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1.4375em;
+  height: 1.4375em;
+  background-image: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/channels.svg);
+  background-size: 353% 600%;
+  opacity: .45;
+  transition: all .3s;
+}*/
 
 /* main content */
 .article-navigation-container{
