@@ -587,7 +587,13 @@ footer{
 
 @media(max-width: 440px){
   li.logo img{
-    width: 250%;
+    width: 280%;
+ }
+}
+
+@media(max-width: 340px){
+  li.logo img{
+    width: 315%;
  }
 }
   
