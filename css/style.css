@@ -236,12 +236,16 @@ ul.article-navigation{
   width: 27%;
   float: right;
   justify-content: space-around;
-  color: white;
 }
 
 .icons-ul li{
   background: rgb(235, 166, 149);
   border-radius: 100%;
+  }
+
+.icons-ul li a{
+  text-decoration: none;
+  color: white;
 }
 
 .search-title{
@@ -515,8 +519,10 @@ footer{
   }
 
   .icons{
-    display: none;
+      grid-column: 1;
+      grid-row: 1;
   }
+  
   nav.main-navigation ul{
     width: 43%;
     height: auto;
