@@ -1,8 +1,5 @@
 @import "_header.css";
 
-
-
-
 body, html{
   height: 100%;
 }
@@ -39,7 +36,6 @@ header{
   width: 90%;
 }
 
-/* main navigation */
 nav.main-navigation ul{
   display: flex;
   height: 100%;
@@ -103,20 +99,6 @@ li.logo img{
   height: auto;
   border: 0;
 }
-
-/*#social-media-nav .ch li a {
-  grid-column: 2;
-  grid-row: 1;
-  text-indent: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  width: 1.4375em;
-  height: 1.4375em;
-  background-image: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/channels.svg);
-  background-size: 353% 600%;
-  opacity: .45;
-  transition: all .3s;
-}*/
 
 /* main content */
 .article-navigation-container{
@@ -211,7 +193,6 @@ ul.article-navigation{
   border-bottom: 5px solid #2CC3AE;
 }
 
-
 .article-navigation a:hover{
   background: #ff6;
   cursor: pointer;
@@ -268,7 +249,6 @@ ul.article-navigation{
   color: #fff;
   font-size: 1.125em;
 }
-
 
 .search input{
   height: 2.352em;
@@ -346,7 +326,6 @@ ul.article-navigation{
   height: 1.5em;
  }
 
-
 article{
   background-color: #fff;
   grid-column: 1;
@@ -361,7 +340,7 @@ h2, h3 {
     font-family: "Skolar Bold","Segoe UI Bold",
     "Roboto Slab","Droid Serif",AvenirNext-Bold,
     "Avenir Bold",Georgia,"Times New Roman",Times,serif;
-  }
+}
 
 article ul li{
   color: rgba(0,0,0,.3);
@@ -381,7 +360,6 @@ article ul li{
   color: #41b7d8;
   text-decoration: none;
 }
-
 
 article ul li a{
   text-decoration: none;
@@ -409,7 +387,7 @@ footer{
   height: 14.5em;
 }
 
- .flinks a{
+.flinks a{
   color: #41b7d8;
   text-decoration: none;
   padding: 0.4em;  
