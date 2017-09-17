@@ -1,5 +1,5 @@
 @import "_header.css";
-@import "fonts.css";
+
 
 
 
@@ -229,6 +229,19 @@ ul.article-navigation{
   grid-row: 1;
   text-align: right;
   padding: 49px 20px 0 0;
+}
+
+.icons-ul{
+  display: flex;
+  width: 27%;
+  float: right;
+  justify-content: space-around;
+  color: white;
+}
+
+.icons-ul li{
+  background: rgb(235, 166, 149);
+  border-radius: 100%;
 }
 
 .search-title{
