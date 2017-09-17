@@ -231,6 +231,19 @@ ul.article-navigation{
   padding: 49px 20px 0 0;
 }
 
+.icons-ul{
+  display: flex;
+  width: 27%;
+  float: right;
+  justify-content: space-around;
+  color: white;
+}
+
+.icons-ul li{
+  background: rgb(235, 166, 149);
+  border-radius: 100%;
+}
+
 .search-title{
   display: flex;
   color: rgba(0,0,0,.3);
