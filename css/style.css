@@ -1,5 +1,17 @@
 @import "_header.css";
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../font/Roboto/Roboto-Regular.ttf');  
+}
+
+@font-face {
+  font-family: 'Roboto_Slab';
+  src: url('../font/Roboto_Slab/RobotoSlab_Bold.ttf');
+  font-weight: 800;  
+}
+
+
 body, html{
   height: 100%;
 }
@@ -7,7 +19,7 @@ body, html{
 body{
   background: #f2f2f2;
   margin: 0;
-  font-family: 'Roboto Slab', sans-serif;
+  font-family: 'Roboto_Slab', sans-serif;
   font-size: 100%;
 }
 
@@ -124,6 +136,11 @@ ul.article-navigation{
   padding-left: 5%;
 }
 
+.article h2{
+  font-family: 'Roboto_Slab';
+  font-weight: 800;
+}
+
 .article-navigation li{
   transition: 0.3s;
 }
@@ -214,19 +231,47 @@ ul.article-navigation{
 
 .icons-ul{
   display: flex;
-  width: 27%;
   float: right;
   justify-content: space-around;
 }
 
 .icons-ul li{
-  background: rgb(235, 166, 149);
-  border-radius: 100%;
-  }
+  width: 2em;
+}
 
 .icons-ul li a{
+  text-indent: 100%;
+  color: rgba(255, 0, 0, 0);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 1.4375em;
+  height: 1.4375em;
   text-decoration: none;
-  color: white;
+  background-image: url(../img/channels.svg);
+  background-size: 355% 600%;
+  transition: all .3s;
+  opacity: .45;
+  font-size: larger;
+}
+
+.icons-ul li a:hover{
+  opacity: 1;
+}
+
+.rss a{
+  background-position: 72% 35.5%;  
+}
+
+.fb a{
+  background-position: 74% 62%;
+}
+
+.tw a{
+  background-position: 74% 90%;
+}
+
+.nl a{
+  background-position: 74% 9%;
 }
 
 .search-title{
@@ -242,7 +287,7 @@ ul.article-navigation{
   border-left: 0;
   border-radius: 0 .5em .5em 0;
   line-height: 2.25;
-  width: 18%;
+  width: 23%;
   height:  2.375em;;
   float: right;
   margin-top: 20px;
@@ -260,7 +305,7 @@ ul.article-navigation{
   background-color: #fff;
   border-radius: .8em 0 0 .8em;
   margin-top: 20px;
-  width: 79%;
+  width: 74%;
   font-size: 1.125em;
 }
 
