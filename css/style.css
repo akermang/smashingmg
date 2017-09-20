@@ -282,6 +282,7 @@ ul.article-navigation{
 .search button{
   background-color: #e95c33;
   border: .08em solid #c73a11;
+  background: linear-gradient(to bottom,#e85c33 0,#e53a2b 100%);
   margin-right: 3%;
   border-left: 0;
   border-radius: 0 .5em .5em 0;
@@ -349,6 +350,7 @@ ul.article-navigation{
 .email-input button{
   background-color: #e95c33;
   border: .08em solid #c73a11;
+  background: linear-gradient(to bottom,#e85c33 0,#e53a2b 100%);
   margin-right: 3%;
   border-left: 0;
   border-radius: 0 .5em .5em 0;
