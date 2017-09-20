@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'Roboto_Slab';
-  src: url('../font/Roboto_Slab/RobotoSlab_Bold.ttf');
+  src: url('../font/Roboto_Slab/RobotoSlab-Bold.ttf');
   font-weight: 800;  
 }
 
@@ -19,7 +19,7 @@ body, html{
 body{
   background: #f2f2f2;
   margin: 0;
-  font-family: 'Roboto_Slab', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 100%;
 }
 
@@ -251,7 +251,6 @@ ul.article-navigation{
   background-size: 355% 600%;
   transition: all .3s;
   opacity: .45;
-  font-size: larger;
 }
 
 .icons-ul li a:hover{
@@ -259,7 +258,7 @@ ul.article-navigation{
 }
 
 .rss a{
-  background-position: 72% 35.5%;  
+  background-position: 61% 35.5%;  
 }
 
 .fb a{
@@ -267,7 +266,7 @@ ul.article-navigation{
 }
 
 .tw a{
-  background-position: 74% 90%;
+  background-position: 67% 90%;
 }
 
 .nl a{
@@ -283,6 +282,7 @@ ul.article-navigation{
 .search button{
   background-color: #e95c33;
   border: .08em solid #c73a11;
+  background: linear-gradient(to bottom,#e85c33 0,#e53a2b 100%);
   margin-right: 3%;
   border-left: 0;
   border-radius: 0 .5em .5em 0;
@@ -303,10 +303,18 @@ ul.article-navigation{
   color: #777;
   border: .08em solid rgba(0,0,0,.1);
   background-color: #fff;
-  border-radius: .8em 0 0 .8em;
+  border-radius: .5em 0 0 .5em;
   margin-top: 20px;
   width: 74%;
   font-size: 1.125em;
+  outline: none;
+  transition: border-color .3s;
+  border-right: 0;
+}
+
+.search input:focus{
+  border: 0.08em solid rgba(0,0,0,.26);
+  border-right: 0;  
 }
 
 .Subscribe{
@@ -342,6 +350,7 @@ ul.article-navigation{
 .email-input button{
   background-color: #e95c33;
   border: .08em solid #c73a11;
+  background: linear-gradient(to bottom,#e85c33 0,#e53a2b 100%);
   margin-right: 3%;
   border-left: 0;
   border-radius: 0 .5em .5em 0;
@@ -361,9 +370,17 @@ ul.article-navigation{
   color: #777;
   border: .08em solid rgba(0,0,0,.1);
   background-color: #fff;
-  border-radius: .8em 0 0 .8em;
+  border-radius: .5em 0 0 .5em;
   width: 72%;
   font-size: 1.125em;
+  outline: none;
+  transition: border-color .3s;
+  border-right: 0;
+}
+
+.Subscribe input:focus{
+  border: 0.08em solid rgba(0,0,0,.26);
+  border-right: 0;
 }
 
 .email-input a img{
