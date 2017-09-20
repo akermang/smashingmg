@@ -17,7 +17,7 @@ body, html{
 }
 
 body{
-  background: #f2f2f2;
+  background-image: url(../img/smbg.png);
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-size: 100%;
@@ -526,6 +526,7 @@ footer{
     height: 35px;
     width: 90%;
     text-align: left;
+    line-height: 100px;
   }
 
   article{
@@ -558,7 +559,7 @@ footer{
     text-decoration: none;
     color: rgba(233, 90, 51, 0);
     width: 2.9375em;
-    background: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/search-icon.svg)
+    background: url(../img/search-icon.svg)
      50% 50% no-repeat,#e95c33;
      padding: .4em;
      box-sizing: border-box;
@@ -655,6 +656,11 @@ footer{
   article p{
     width: 90%;
     margin: 6%;
+  }
+
+  figure{
+    width: 56%;
+    margin: 20px auto;
   }
 
   figure img{
