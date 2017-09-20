@@ -555,6 +555,32 @@ footer{
 
   .stb{
     margin-left: 1em;
+    text-decoration: none;
+    color: rgba(233, 90, 51, 0);
+    width: 2.9375em;
+    background: url(https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/search-icon.svg)
+     50% 50% no-repeat,#e95c33;
+     padding: .4em;
+     box-sizing: border-box;
+     border: .08em solid #c73a11;
+     border-radius: .25em;
+     box-shadow: 0 0.08em 0.08em rgba(0,0,0,.25);
+     background-size: 65%;
+  }
+
+  .ntb{
+    text-decoration: none;
+    margin-left: 1em;
+    color: #fff;
+    background: #e95c33;
+    box-sizing: border-box;
+    border: .08em solid #c73a11;
+    border-radius: .25em;
+    box-shadow: 0 0.08em 0.08em rgba(0,0,0,.25);
+    padding: .4em;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   .search{
